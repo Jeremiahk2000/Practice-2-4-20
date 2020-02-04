@@ -1,0 +1,15 @@
+---
+title: "MorePractice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+
+```{r}
+library(gov.1005.data)
+congress %>% arrange(desc(age))
+```
+
